@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Raleway&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+.marcxena {
+    height: 100vh;
+    width: calc(100vw - 496px);
+    background: #F9F8F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.from-wrapper {
+    width: 552px;
+    height: 732px;
+    background: #FFFFFF;
+    border: 1px solid red;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.from-content {
+    width: 425px;
+    height: 680px;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 30px auto 10px;
+}
+
+.from-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 41px;
+}
+
+.header-left h2 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.header-left p {
+    font-weight: 600px;
+    font-size: 18px;
+}
+
+.header-right h2 {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+input {
+    width: 424px;
+    height: 54px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+/* input::placeholder {
+    padding-left: 20px;
+} */
+
+.card-relative {
+    display: flex;
+    position: relative;
+}
+
+.card-absolute {
+    position: absolute;
+    padding: 17px 25px 16px 370px;
+}
+
+/* .image {
+    display: block;
+} */
+
+.date {
+    display: flex;
+}
+
+.date input {
+    width: 282px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.cvv input {
+    width: 120px;
+    height: 54px;
+}
+
+.cvv {
+    margin-left: 20px;
+}
+
+.country input [text] {
+    width: 282px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.zip input {
+    width: 120px;
+    height: 54px;
+}
+
+.country {
+    display: flex;
+}
+
+.country .input {
+    width: 120px;
+    height: 54px;
+}
+
+select {
+    width: 282px;
+    height: 54px;
+
+}
+
+.zip {
+    margin-left: 20px;
+}
+
+.checkbox input {
+    width: 27px;
+    height: 9px;
+    border: 1.5px solid #DE2564;
+    padding-right: 10px;
+}
+
+.checkbox {
+    display: flex;
+    margin-top: 28px;
+    margin-bottom: 29px;
+}
+
+.btn {
+    margin-left: 23px;
+    font-weight: 700;
+    font-size: 18px;
+    width: 370px;
+    height: 64px;
+    border: none;
+    background: linear-gradient(270deg, #C23584 0%, #E2306C 24.48%, #F77736 83.85%, #FA963E 100%);
+    border-radius: 32px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.btn span {
+    text-decoration: line-through;
+    color: #F5B0C2;
+}
+
+.form-text {
+    color: red;
+    text-decoration: underline;
+}
+
+.form-footer {
+    font-weight: 700;
+    font-size: 18px;
+    /* border: 3px solid blue; */
+    width: 370px;
+    height: 64px;
+    text-align: center;
+    margin-top: 3px;
+    color: #E1306C;
+}
+
+/* ........sssection2 */
+
+
+.marjvena {
+    width: 496px;
+    height: 1105px;
+    background: #F9F8F7;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
+}
+
+.right-header {
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 154px;
+    margin-bottom: 16px;
+
+}
+
+.right-icon {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.trust {
+    margin-left: 95px;
+    display: flex;
+    margin-top: 9px;
+    margin-bottom: 44px;
+}
+
+.trust-p {
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 18px;
+    margin-top: 20px;
+}
+
+/* .icon-2 .icon2-2 {
+    margin: 53px 218px 14px 218px; */
+
+
+
+.icon-2 {
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.icon2-2 {
+    margin-left: 100px;
+}
+
+.icon-images {
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.icon-p {
+    width: 370px;
+    height: 91px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+
+    /* margin-left: 45px; */
+
+}
+
+.icon2-p {
+    width: 343px;
+    height: 91px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+
+.icon-h2 {
+    width: 398px;
+    height: 29px;
+    font-weight: 700;
+    font-size: 16px;
+    /* margin-left: 45px; */
+    text-align: center;
+}
+
+.icon-h3 {
+    width: 352px;
+    height: 29px;
+    font-weight: 700;
+    font-size: 16px;
+    /* margin-left: 45px; */
+    /* text-align: center; */
+
+}
+
+.icon2-p2 {
+    margin-top: 10px;
+}
+
+.footer-bolo {
+    display: flex;
+    margin-left: 60px;
+}
